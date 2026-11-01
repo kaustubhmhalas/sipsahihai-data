@@ -104,32 +104,7 @@
         "kind": "Broker"
       }
     ],
-    "ifsc_funds": [
-      {
-        "name": "DSP Global Equity Fund (IFSC)",
-        "kind": "AMC",
-        "note": "Outbound global equity fund. Minimum US$5,000. Check with DSP whether residents are eligible."
-      },
-      {
-        "name": "Tata Asset Management IFSC",
-        "kind": "AMC",
-        "note": "Inbound feeder funds for non-residents. Not for the US or Canada. Minimum US$500.",
-        "residents": false,
-        "url": "https://www.tatamutualfund.com/ifsc-gift-city"
-      },
-      {
-        "name": "Sundaram Asset Management IFSC",
-        "kind": "AMC",
-        "note": "Inbound feeder into Sundaram Mid Cap Fund.",
-        "residents": false,
-        "url": "https://www.sundarammutual.com/gift-city"
-      },
-      {
-        "name": "HDFC AMC IFSC",
-        "kind": "AMC",
-        "url": "https://www.hdfcfund.com/learn/blog/gift-city-investment-funds-complete-guide-ifsc-offshore-investing"
-      }
-    ],
+    "ifsc_funds": [],
     "aif_pms": [],
     "usd_insurance": [],
     "global_bonds": [
