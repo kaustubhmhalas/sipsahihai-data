@@ -2,45 +2,463 @@
   "as_of": "1 Nov 2026",
   "offerings": {
     "usd_fd": [
-      { "name": "Central Bank of India IBU", "kind": "Bank", "rate": 4.25, "rateTenure": "1 year", "rateAsOf": "29 Jun 2026", "note": "Slightly higher rates above US$1 million.", "url": "https://www.centralbank.bank.in/themes/cbi/images/CBI_IBU_GIFT_City_Interest_Rates.pdf" },
-      { "name": "Federal Bank IBU", "kind": "Bank", "rate": 4.15, "rateTenure": "271–365 days", "rateAsOf": "10 Mar 2026", "url": "https://www.federal.bank.in/documents/d/guest/ibu-retail-fixed-deposits-rates-w-e-f-10-03-2026" },
-      { "name": "Axis Bank IBU", "kind": "Bank", "rate": 3.90, "rateTenure": "1 year", "rateAsOf": "15 May 2026", "url": "https://www.axisbank.com/docs/default-source/default-document-library/axis-bank-gift-city-ibu-fixed-deposit-rate-chart.pdf" },
-      { "name": "SBI IBU", "kind": "Bank", "note": "Ask the GIFT City branch for current USD FD rates." },
-      { "name": "HDFC Bank IBU", "kind": "Bank", "note": "Ask the GIFT City branch for current USD FD rates." },
-      { "name": "ICICI Bank IBU", "kind": "Bank", "note": "Ask the GIFT City branch for current USD FD rates." },
-      { "name": "Kotak Mahindra Bank IBU", "kind": "Bank", "note": "Ask the GIFT City branch for current USD FD rates." },
-      { "name": "IDFC FIRST Bank IBU", "kind": "Bank", "note": "Ask the GIFT City branch for current USD FD rates." }
+      {
+        "name": "Central Bank of India IBU",
+        "kind": "Bank",
+        "rate": 4.25,
+        "rateTenure": "1 year",
+        "rateAsOf": "29 Jun 2026",
+        "note": "Slightly higher rates above US$1 million.",
+        "url": "https://www.centralbank.bank.in/themes/cbi/images/CBI_IBU_GIFT_City_Interest_Rates.pdf"
+      },
+      {
+        "name": "Federal Bank IBU",
+        "kind": "Bank",
+        "rate": 4.15,
+        "rateTenure": "271–365 days",
+        "rateAsOf": "10 Mar 2026",
+        "url": "https://www.federal.bank.in/documents/d/guest/ibu-retail-fixed-deposits-rates-w-e-f-10-03-2026"
+      },
+      {
+        "name": "Axis Bank IBU",
+        "kind": "Bank",
+        "rate": 3.9,
+        "rateTenure": "1 year",
+        "rateAsOf": "15 May 2026",
+        "url": "https://www.axisbank.com/docs/default-source/default-document-library/axis-bank-gift-city-ibu-fixed-deposit-rate-chart.pdf"
+      },
+      {
+        "name": "SBI IBU",
+        "kind": "Bank",
+        "note": "Ask the GIFT City branch for current USD FD rates."
+      },
+      {
+        "name": "HDFC Bank IBU",
+        "kind": "Bank",
+        "note": "Ask the GIFT City branch for current USD FD rates."
+      },
+      {
+        "name": "ICICI Bank IBU",
+        "kind": "Bank",
+        "note": "Ask the GIFT City branch for current USD FD rates."
+      },
+      {
+        "name": "Kotak Mahindra Bank IBU",
+        "kind": "Bank",
+        "note": "Ask the GIFT City branch for current USD FD rates."
+      },
+      {
+        "name": "IDFC FIRST Bank IBU",
+        "kind": "Bank",
+        "note": "Ask the GIFT City branch for current USD FD rates."
+      }
     ],
     "us_stocks": [
-      { "name": "INDmoney", "kind": "Broker", "note": "US stocks through its IFSCA-regulated GIFT City entity. KYC in India, fund in INR.", "url": "https://www.indmoney.com/us-stocks" },
-      { "name": "Mirae Asset Sharekhan (GIFT)", "kind": "Broker", "note": "10,000+ US stocks and ETFs through GIFT City.", "url": "https://gift.sharekhan.com/" },
-      { "name": "HDFC Securities IFSC", "kind": "Broker", "note": "Check that retail onboarding is open." },
-      { "name": "Kotak Securities IFSC", "kind": "Broker", "note": "Check that retail onboarding is open." },
-      { "name": "ICICI Securities IFSC", "kind": "Broker", "note": "Check that retail onboarding is open." },
-      { "name": "Zerodha IFSC", "kind": "Broker", "note": "Reported to offer US stocks through GIFT City. Check availability." }
+      {
+        "name": "INDmoney",
+        "kind": "Broker",
+        "note": "US stocks through its IFSCA-regulated GIFT City entity. KYC in India, fund in INR.",
+        "url": "https://www.indmoney.com/us-stocks"
+      },
+      {
+        "name": "Mirae Asset Sharekhan (GIFT)",
+        "kind": "Broker",
+        "note": "10,000+ US stocks and ETFs through GIFT City.",
+        "url": "https://gift.sharekhan.com/"
+      },
+      {
+        "name": "HDFC Securities IFSC",
+        "kind": "Broker",
+        "note": "Check that retail onboarding is open."
+      },
+      {
+        "name": "Kotak Securities IFSC",
+        "kind": "Broker",
+        "note": "Check that retail onboarding is open."
+      },
+      {
+        "name": "ICICI Securities IFSC",
+        "kind": "Broker",
+        "note": "Check that retail onboarding is open."
+      },
+      {
+        "name": "Zerodha IFSC",
+        "kind": "Broker",
+        "note": "Reported to offer US stocks through GIFT City. Check availability."
+      }
     ],
     "nse_ix_receipts": [
-      { "name": "NSE International Exchange (NSE IX)", "kind": "Exchange", "note": "Lists receipts on about 50 large US stocks. Retail trading since March 2022." },
-      { "name": "Anand Rathi IFSC", "kind": "Broker", "note": "Top 50 US stocks through NSE IFSC Receipts.", "url": "https://www.anandrathigiftcity.com/nse-ifsc-exchange-giftcity" },
-      { "name": "HDFC Securities IFSC", "kind": "Broker" }
+      {
+        "name": "NSE International Exchange (NSE IX)",
+        "kind": "Exchange",
+        "note": "Lists receipts on about 50 large US stocks. Retail trading since March 2022."
+      },
+      {
+        "name": "Anand Rathi IFSC",
+        "kind": "Broker",
+        "note": "Top 50 US stocks through NSE IFSC Receipts.",
+        "url": "https://www.anandrathigiftcity.com/nse-ifsc-exchange-giftcity"
+      },
+      {
+        "name": "HDFC Securities IFSC",
+        "kind": "Broker"
+      }
     ],
     "ifsc_funds": [
-      { "name": "DSP Global Equity Fund (IFSC)", "kind": "AMC", "note": "Outbound global equity fund. Minimum US$5,000. Check with DSP whether residents are eligible." },
-      { "name": "Tata Asset Management IFSC", "kind": "AMC", "note": "Inbound feeder funds for non-residents. Not for the US or Canada. Minimum US$500.", "residents": false, "url": "https://www.tatamutualfund.com/ifsc-gift-city" },
-      { "name": "Sundaram Asset Management IFSC", "kind": "AMC", "note": "Inbound feeder into Sundaram Mid Cap Fund.", "residents": false, "url": "https://www.sundarammutual.com/gift-city" },
-      { "name": "HDFC AMC IFSC", "kind": "AMC", "url": "https://www.hdfcfund.com/learn/blog/gift-city-investment-funds-complete-guide-ifsc-offshore-investing" }
+      {
+        "name": "DSP Global Equity Fund (IFSC)",
+        "kind": "AMC",
+        "note": "Outbound global equity fund. Minimum US$5,000. Check with DSP whether residents are eligible."
+      },
+      {
+        "name": "Tata Asset Management IFSC",
+        "kind": "AMC",
+        "note": "Inbound feeder funds for non-residents. Not for the US or Canada. Minimum US$500.",
+        "residents": false,
+        "url": "https://www.tatamutualfund.com/ifsc-gift-city"
+      },
+      {
+        "name": "Sundaram Asset Management IFSC",
+        "kind": "AMC",
+        "note": "Inbound feeder into Sundaram Mid Cap Fund.",
+        "residents": false,
+        "url": "https://www.sundarammutual.com/gift-city"
+      },
+      {
+        "name": "HDFC AMC IFSC",
+        "kind": "AMC",
+        "url": "https://www.hdfcfund.com/learn/blog/gift-city-investment-funds-complete-guide-ifsc-offshore-investing"
+      }
     ],
     "aif_pms": [],
     "usd_insurance": [],
     "global_bonds": [
-      { "name": "India INX", "kind": "Exchange", "note": "Global Securities Market for dollar bonds of Indian issuers." },
-      { "name": "NSE International Exchange (NSE IX)", "kind": "Exchange", "note": "Dollar, green and masala bond listings." }
+      {
+        "name": "India INX",
+        "kind": "Exchange",
+        "note": "Global Securities Market for dollar bonds of Indian issuers."
+      },
+      {
+        "name": "NSE International Exchange (NSE IX)",
+        "kind": "Exchange",
+        "note": "Dollar, green and masala bond listings."
+      }
     ],
     "gift_nifty": [
-      { "name": "NSE International Exchange (NSE IX)", "kind": "Exchange", "note": "GIFT Nifty 50, Bank Nifty, Fin Nifty and IT futures and options, about 21 hours a day.", "residents": false }
+      {
+        "name": "NSE International Exchange (NSE IX)",
+        "kind": "Exchange",
+        "note": "GIFT Nifty 50, Bank Nifty, Fin Nifty and IT futures and options, about 21 hours a day.",
+        "residents": false
+      }
     ],
     "bullion": [
-      { "name": "India International Bullion Exchange (IIBX)", "kind": "Exchange", "note": "For qualified jewellers, banks and institutions.", "residents": false }
+      {
+        "name": "India International Bullion Exchange (IIBX)",
+        "kind": "Exchange",
+        "note": "For qualified jewellers, banks and institutions.",
+        "residents": false
+      }
     ]
-  }
+  },
+  "funds": [
+    {
+      "name": "Parag Parikh IFSC S&P 500 Fund of Fund",
+      "amc": "PPFAS Asset Management",
+      "offering": "ifsc_funds",
+      "structure": "Retail scheme",
+      "direction": "outbound",
+      "invests": "US large caps: accumulating UCITS ETFs that track the S&P 500",
+      "minUSD": 5000,
+      "topUpUSD": 500,
+      "expense": "0.30% direct · 0.60% regular",
+      "exitLoad": "Nil after 2 years",
+      "residents": true,
+      "nri": true,
+      "status": "Approved by IFSCA (Dec 2025). Check that it's open for investment.",
+      "note": "Residents can invest through LRS, up to US$2,50,000 a year.",
+      "source": "Value Research, Dec 2025; Vested Finance, GIFT City funds"
+    },
+    {
+      "name": "Parag Parikh IFSC Nasdaq 100 Fund of Fund",
+      "amc": "PPFAS Asset Management",
+      "offering": "ifsc_funds",
+      "structure": "Retail scheme",
+      "direction": "outbound",
+      "invests": "US tech-heavy large caps: accumulating UCITS ETFs that track the Nasdaq 100",
+      "minUSD": 5000,
+      "topUpUSD": 500,
+      "expense": "0.30% direct · 0.60% regular",
+      "exitLoad": "Nil after 2 years",
+      "residents": true,
+      "nri": true,
+      "status": "Approved by IFSCA (Dec 2025). Check that it's open for investment.",
+      "note": "Residents can invest through LRS, up to US$2,50,000 a year.",
+      "source": "Value Research, Dec 2025; Vested Finance, GIFT City funds"
+    },
+    {
+      "name": "DSP Global Equity Fund",
+      "amc": "DSP Asset Managers (IFSC)",
+      "offering": "ifsc_funds",
+      "structure": "Retail scheme",
+      "direction": "outbound",
+      "invests": "Actively managed portfolio of global stocks held directly (e.g. Apple, Meta, Nintendo, Brookfield)",
+      "minUSD": 5000,
+      "expense": "Up to 1.75% a year in total (1.5% fee + about 0.25% costs)",
+      "exitLoad": "1% within 2 years, nil after",
+      "nri": true,
+      "note": "Platforms such as Vested offer it through LRS, but some sources say it is only for non-residents. Confirm with DSP before investing.",
+      "source": "Vested Finance, GIFT City funds"
+    },
+    {
+      "name": "Edelweiss Greater China Equity Fund – GIFT City",
+      "amc": "Edelweiss Asset Management (IFSC)",
+      "offering": "ifsc_funds",
+      "structure": "Retail scheme",
+      "direction": "outbound",
+      "invests": "Feeder into a Greater China equity fund",
+      "minUSD": 5000,
+      "expense": "0.50% direct · 1.50% regular (plus the underlying fund's fees)",
+      "nri": true,
+      "source": "Belong, GIFT City fund expense ratios"
+    },
+    {
+      "name": "Tata India Dynamic Equity Fund – GIFT IFSC",
+      "amc": "Tata Asset Management (IFSC)",
+      "offering": "ifsc_funds",
+      "structure": "Retail scheme",
+      "direction": "inbound",
+      "invests": "Feeder into Tata's Indian equity schemes and ETFs",
+      "minUSD": 500,
+      "residents": false,
+      "nri": true,
+      "excludes": "US, Canada",
+      "launched": "Sep 2025",
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "url": "https://www.tatamutualfund.com/ifsc-gift-city",
+      "source": "Business Standard, Sep 2025; Tata AMC"
+    },
+    {
+      "name": "Sundaram India Mid Cap Fund – GIFT",
+      "amc": "Sundaram Asset Management (IFSC)",
+      "offering": "ifsc_funds",
+      "structure": "Retail scheme",
+      "direction": "inbound",
+      "invests": "Feeder into Sundaram Mid Cap Fund",
+      "minUSD": 5000,
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "url": "https://www.sundarammutual.com/gift-city",
+      "source": "Sundaram AMC"
+    },
+    {
+      "name": "Parag Parikh Global Investing Strategy",
+      "amc": "PPFAS Asset Management",
+      "offering": "aif_pms",
+      "structure": "PMS",
+      "direction": "outbound",
+      "invests": "Global stocks, managed as a portfolio in your name",
+      "minUSD": 75000,
+      "expense": "2% a year, no performance fee",
+      "nri": true,
+      "note": "Check with PPFAS whether residents can invest through LRS.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "Phillip International Pioneer Portfolio – Global PMS",
+      "amc": "PhillipCapital (IFSC)",
+      "offering": "aif_pms",
+      "structure": "PMS",
+      "direction": "outbound",
+      "invests": "Portfolio of global ETFs",
+      "minUSD": 75000,
+      "expense": "2% a year, no performance fee",
+      "nri": true,
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "ABSL India Flexicap Fund (IFSC)",
+      "amc": "Aditya Birla Sun Life AMC (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Restricted scheme",
+      "direction": "inbound",
+      "invests": "Indian stocks across market caps (flexi-cap)",
+      "minUSD": 150000,
+      "expense": "About 1.30% a year",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "Bandhan AMC IFSC GIFT City Fund",
+      "amc": "Bandhan AMC (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Restricted scheme",
+      "direction": "inbound",
+      "invests": "Bandhan's Indian mutual fund strategies",
+      "minUSD": 150000,
+      "expense": "1.50% a year",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "DSP India Equity Opportunities Fund",
+      "amc": "DSP Asset Managers (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Restricted scheme",
+      "direction": "inbound",
+      "invests": "Indian large and mid caps (DSP Equity Opportunities process)",
+      "minUSD": 150000,
+      "expense": "1.50% a year",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "ICICI Prudential Smart Navigator Fund (IFSC)",
+      "amc": "ICICI Prudential AMC (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Restricted scheme",
+      "direction": "inbound",
+      "invests": "Moves between Indian equity and other assets based on valuations",
+      "minUSD": 150000,
+      "expense": "1.60% a year",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "Motilal Oswal GIFT City Fund of Funds",
+      "amc": "Motilal Oswal AMC (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Restricted scheme",
+      "direction": "inbound",
+      "invests": "Motilal Oswal's Indian large and mid cap funds",
+      "minUSD": 150000,
+      "expense": "2.25% a year",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "Nippon India Large Cap Fund – GIFT",
+      "amc": "Nippon Life India AMC (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Restricted scheme",
+      "direction": "inbound",
+      "invests": "Indian large-cap stocks",
+      "minUSD": 150000,
+      "expense": "1.65% a year",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "Nippon India ETF Nifty 50 BeES – GIFT",
+      "amc": "Nippon Life India AMC (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Restricted scheme",
+      "direction": "inbound",
+      "invests": "Nifty 50 index",
+      "minUSD": 150000,
+      "expense": "About 0.25% a year",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "HDFC AMC International (IFSC) – Restricted Scheme",
+      "amc": "HDFC AMC International (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Restricted scheme",
+      "direction": "inbound",
+      "invests": "Choice of HDFC strategies: flexi cap, mid cap, small cap, hybrid, Nifty 50",
+      "minUSD": 150000,
+      "expense": "About 0.60%–1.35% depending on the option",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "url": "https://www.hdfcfund.com/learn/blog/gift-city-investment-funds-complete-guide-ifsc-offshore-investing",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "Alchemy India Long Term Fund",
+      "amc": "Alchemy Capital (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Cat III AIF",
+      "direction": "inbound",
+      "invests": "Long-term Indian equity portfolio",
+      "minUSD": 150000,
+      "expense": "1.50% + 15% of returns above 6%",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "Carnelian India Amritkaal Fund",
+      "amc": "Carnelian Asset Management (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Cat III AIF",
+      "direction": "inbound",
+      "invests": "Indian equity, multi-cap",
+      "minUSD": 150000,
+      "expense": "1.50% + 15% of returns above 6%",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "Nippon India Sharp Equity Fund",
+      "amc": "Nippon Life India AMC (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Cat III AIF",
+      "direction": "inbound",
+      "invests": "Concentrated Indian equity portfolio",
+      "minUSD": 150000,
+      "expense": "1.85% + 10% of returns above 8%",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "Phillip India Billion Opportunities Fund",
+      "amc": "PhillipCapital (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Cat III AIF",
+      "direction": "inbound",
+      "invests": "Indian equity",
+      "minUSD": 150000,
+      "expense": "2.50% a year",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    },
+    {
+      "name": "Renaissance India Growth Fund (GIFT)",
+      "amc": "Renaissance Investment Managers (IFSC)",
+      "offering": "aif_pms",
+      "structure": "Cat III AIF",
+      "direction": "inbound",
+      "invests": "Indian equity, open-ended",
+      "minUSD": 150000,
+      "expense": "2.50% a year",
+      "residents": false,
+      "nri": true,
+      "note": "Inbound fund: invests in Indian stocks for overseas investors, so resident Indians can't invest.",
+      "source": "Kalviro Ventures, GIFT City funds list 2026"
+    }
+  ]
 }
