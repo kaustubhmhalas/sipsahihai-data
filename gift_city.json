@@ -1,0 +1,46 @@
+{
+  "as_of": "1 Nov 2026",
+  "offerings": {
+    "usd_fd": [
+      { "name": "Central Bank of India IBU", "kind": "Bank", "rate": 4.25, "rateTenure": "1 year", "rateAsOf": "29 Jun 2026", "note": "Slightly higher rates above US$1 million.", "url": "https://www.centralbank.bank.in/themes/cbi/images/CBI_IBU_GIFT_City_Interest_Rates.pdf" },
+      { "name": "Federal Bank IBU", "kind": "Bank", "rate": 4.15, "rateTenure": "271–365 days", "rateAsOf": "10 Mar 2026", "url": "https://www.federal.bank.in/documents/d/guest/ibu-retail-fixed-deposits-rates-w-e-f-10-03-2026" },
+      { "name": "Axis Bank IBU", "kind": "Bank", "rate": 3.90, "rateTenure": "1 year", "rateAsOf": "15 May 2026", "url": "https://www.axisbank.com/docs/default-source/default-document-library/axis-bank-gift-city-ibu-fixed-deposit-rate-chart.pdf" },
+      { "name": "SBI IBU", "kind": "Bank", "note": "Ask the GIFT City branch for current USD FD rates." },
+      { "name": "HDFC Bank IBU", "kind": "Bank", "note": "Ask the GIFT City branch for current USD FD rates." },
+      { "name": "ICICI Bank IBU", "kind": "Bank", "note": "Ask the GIFT City branch for current USD FD rates." },
+      { "name": "Kotak Mahindra Bank IBU", "kind": "Bank", "note": "Ask the GIFT City branch for current USD FD rates." },
+      { "name": "IDFC FIRST Bank IBU", "kind": "Bank", "note": "Ask the GIFT City branch for current USD FD rates." }
+    ],
+    "us_stocks": [
+      { "name": "INDmoney", "kind": "Broker", "note": "US stocks through its IFSCA-regulated GIFT City entity. KYC in India, fund in INR.", "url": "https://www.indmoney.com/us-stocks" },
+      { "name": "Mirae Asset Sharekhan (GIFT)", "kind": "Broker", "note": "10,000+ US stocks and ETFs through GIFT City.", "url": "https://gift.sharekhan.com/" },
+      { "name": "HDFC Securities IFSC", "kind": "Broker", "note": "Check that retail onboarding is open." },
+      { "name": "Kotak Securities IFSC", "kind": "Broker", "note": "Check that retail onboarding is open." },
+      { "name": "ICICI Securities IFSC", "kind": "Broker", "note": "Check that retail onboarding is open." },
+      { "name": "Zerodha IFSC", "kind": "Broker", "note": "Reported to offer US stocks through GIFT City. Check availability." }
+    ],
+    "nse_ix_receipts": [
+      { "name": "NSE International Exchange (NSE IX)", "kind": "Exchange", "note": "Lists receipts on about 50 large US stocks. Retail trading since March 2022." },
+      { "name": "Anand Rathi IFSC", "kind": "Broker", "note": "Top 50 US stocks through NSE IFSC Receipts.", "url": "https://www.anandrathigiftcity.com/nse-ifsc-exchange-giftcity" },
+      { "name": "HDFC Securities IFSC", "kind": "Broker" }
+    ],
+    "ifsc_funds": [
+      { "name": "DSP Global Equity Fund (IFSC)", "kind": "AMC", "note": "Outbound global equity fund. Minimum US$5,000. Check with DSP whether residents are eligible." },
+      { "name": "Tata Asset Management IFSC", "kind": "AMC", "note": "Inbound feeder funds for non-residents. Not for the US or Canada. Minimum US$500.", "residents": false, "url": "https://www.tatamutualfund.com/ifsc-gift-city" },
+      { "name": "Sundaram Asset Management IFSC", "kind": "AMC", "note": "Inbound feeder into Sundaram Mid Cap Fund.", "residents": false, "url": "https://www.sundarammutual.com/gift-city" },
+      { "name": "HDFC AMC IFSC", "kind": "AMC", "url": "https://www.hdfcfund.com/learn/blog/gift-city-investment-funds-complete-guide-ifsc-offshore-investing" }
+    ],
+    "aif_pms": [],
+    "usd_insurance": [],
+    "global_bonds": [
+      { "name": "India INX", "kind": "Exchange", "note": "Global Securities Market for dollar bonds of Indian issuers." },
+      { "name": "NSE International Exchange (NSE IX)", "kind": "Exchange", "note": "Dollar, green and masala bond listings." }
+    ],
+    "gift_nifty": [
+      { "name": "NSE International Exchange (NSE IX)", "kind": "Exchange", "note": "GIFT Nifty 50, Bank Nifty, Fin Nifty and IT futures and options, about 21 hours a day.", "residents": false }
+    ],
+    "bullion": [
+      { "name": "India International Bullion Exchange (IIBX)", "kind": "Exchange", "note": "For qualified jewellers, banks and institutions.", "residents": false }
+    ]
+  }
+}
