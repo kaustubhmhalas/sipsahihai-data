@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-11-12",
   "disclosure_period": "October 2026",
-  "data_version": 26,
+  "data_version": 27,
   "fund_count": 1141,
   "note": "funds: keyed by canonical AMFI scheme code (Direct Growth preferred). scheme_aliases: maps any plan variant → canonical code.",
   "funds": {
